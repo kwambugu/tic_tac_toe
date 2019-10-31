@@ -48,9 +48,9 @@ class Game
         @squares[place] = team
         @round += 1
       else
-        puts "****************************************"
-        puts "Choose a square that hasn't been chosen."
-        puts "****************************************"
+        puts "**********************"
+        puts "Choose a valid square."
+        puts "**********************"
         puts
       end
       board()
